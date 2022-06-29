@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    min-height: 100vh;
+    margin:0;
+
+    background-color: rgb(15, 86, 238);
+}
+
+form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-head{
+    font-weight: bold;
+}
+form input{
+    width: 20vw;
+    
+    
+}
+
+
+.submit{
+    width: 10vw;
+    position: relative;
+    left:5vw;
+    background-color: rgb(245, 134, 8);
+    margin-bottom: 10px;
+}
+
+
+
+.content-container {
+    width:max-content;
+    display: flex;
+    flex-direction: column;
+    
+    
+    justify-content: center;
+
+    color:rgb(247, 240, 179);
+
+    
+    border-radius: 10px;
+    background-color:rgb(216, 39, 216);
+
+    overflow: hidden;
+
+    font-size: 2rem;
+    
+
+}
+
+.form-head p {
+    text-align: center;
+}
+
+#username.right {
+    border: 3px solid green;
+}
+#username.wrong {
+    border: 3px solid rgb(248, 4, 16);
+}
+
+#email-address.right {
+    border: 3px solid green;
+}
+#email-address.wrong {
+    border: 3px solid rgb(248, 4, 16);
+}
+
+#password.right {
+    border: 3px solid green;
+}
+#password.wrong {
+    border: 3px solid rgb(248, 4, 16);
+}
+
+.right {
+    border: 3px solid green;
+}
+.wrong {
+    border: 3px solid rgb(248, 4, 16);
+}
